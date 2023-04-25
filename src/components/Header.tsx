@@ -38,6 +38,12 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
     paddingHorizontal: 16,
+
+    elevation: 5,
+    backgroundColor: '#fff',
+    shadowOffset: {width: 0, height: 2},
+    shadowOpacity: 0.2,
+    shadowRadius: 2,
   },
   leftContainer: {
     width: '50%',
